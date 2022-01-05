@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Yeseva One', cursive;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.link-button{
+    text-decoration: none;
+    background-color:  #FF5959;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin-top: 7px;
+}
+.heading-color{
+    color: orange;
+}
+/* ======welcome section======== */
+#section-one h1{
+    font-size: 60px;
+    padding-bottom: 0;
+    line-height: 20px; 
+}
+
+#section-one img{
+    margin-top: -100px;
+    width: 100%;
+}
+.half-width{
+    width: 50%;
+    margin-left: 50px;
+}
+.heading{
+
+ border-left: 5px solid orange;
+ border-width: 5px;
+ margin-top: 160px;
+ padding-left: 12px;
+ height: 100px;
+}
