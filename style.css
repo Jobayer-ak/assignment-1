@@ -14,7 +14,7 @@ body{
     background-color:  #FF5959;
     padding: 10px 30px;
     border-radius: 5px;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: white;
     display: inline-block;
     margin-top: 7px;
@@ -31,21 +31,30 @@ body{
 }
 
 #section-one img{
-    margin-top: -90px;
+    margin-top: -70px;
     width: 80%;
 }
 .half-width{
     width: 50%;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 .heading{
     border-left: 5px solid #FF5959;
     border-width: 5px;
-    margin-top: 160px;
+    margin-top: 50px;
     padding-left: 12px;
+    margin-bottom: 0;
+    
+    overflow: hidden;
     /* height: 100px; */
 }
 /*=======My Mission Section======== */
+#mission-section{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+}
 #mission-section h1{
     font-size: 60px;
     text-align: center;
@@ -55,6 +64,7 @@ body{
 }
 .space-divider{
     width: 33%;
+    
 }
 .mission{
     background-color: #EDF5F6;
@@ -77,4 +87,38 @@ body{
     padding: 15px 20px;
     margin-left: 20px;
     margin-right: 50px;
+}
+/* =====Develop Section======= */
+#develop-section{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 230px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    
+    
+}
+#develop-section img{
+    width: 400px;
+    height: 400px;
+    padding-top: 50px;
+    /* padding-left: 100px; */
+}
+.dev-image-item{
+    width: 35%;
+    margin-left: 100px;
+}
+.dev-desc-item{
+    width:65%;
+    margin-left: 20px;
+    margin-right: 50px;
+    padding-left: 40px;
+    padding-right: 50px;
+    padding-top: 80px;
+}
+.dev-desc-item h1{
+    font-size: 36px;
+    line-height: 54px;
+    /* font-weight: 700; */
 }
